@@ -2,7 +2,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 400;
-     /*colol ffffff  */
+    color: ffffff;
 
     padding: unset;
     margin: unset;
@@ -18,7 +18,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(10px);
     
+    border-radius: 10px;
 }
 .navbar__nav__list {
     display: flex;
@@ -35,7 +37,16 @@
 
 .fondo-criminal {
     padding: 30px 60px;
+
+    background-image: url(/assets/div\ \(1\).jpg);
 }
-.jumbotron {
+.jumbotron h1 {
+    font-size: 54px;
+
+}
+
+. .jumbotron__sombra {
+    font-weight: 726px;
     
 }
+
